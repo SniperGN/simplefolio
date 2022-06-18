@@ -1,5 +1,5 @@
 .footer {
-  background-color: $dark-grey;
+  background-color: #000000;
   color: $white-color;
   padding: 4.8rem 0;
 
@@ -31,7 +31,8 @@
     margin: 1rem auto;
     border: 0;
     width: 50%;
-    border-top: 2px solid grey;
+    border-top: 4px solid white-color;
+
   }
 }
 

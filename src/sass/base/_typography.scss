@@ -39,7 +39,9 @@ a:hover {
 }
 
 .text-color-main {
-  @include supportColorForIE11();
+  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   // Responsive text purple style
   @include respond(phone) {
